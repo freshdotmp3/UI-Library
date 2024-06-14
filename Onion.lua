@@ -623,7 +623,7 @@ local L_11_ = [[
     }
 ]]
 pcall(function()
-    L_11_ = game:HttpGet("https://raw.githubusercontent.com/ttwizz/Documents/master/icons.json", true)
+    L_11_ = game:HttpGet("https://raw.githubusercontent.com/freshdotmp3/UI-Library/main/Onion%20Icons.json", true)
 end)
 L_11_ = L_7_:JSONDecode(L_11_).icons
 
